@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;500;700&display=swap');
+
+/* PC, 모바일 공통영역 */
+* {box-sizing: border-box;} /*전체 요소의 상자 크기를 경계선을 기준으로 설정*/
+html, body {scroll-behavior: smooth;height: 100%;} /* 화면의 스크롤 이동시 부드럽게 이동하기, 기본 높이를 창의 높이에 맞추기  */
+::-webkit-scrollbar {width: 3px;}
+::-webkit-scrollbar-thumb {background-color: #ccc;}
+::-webkit-scrollbar-track {background-color: #34495E;}
+body, h1, h2, h3, h4, h5, p, div, a, span, header, footer, section, article, aside, audio, video, img, input, select, textarea, button, legend, form, fieldset, figure, iframe {margin: 0;padding: 0;box-sizing: border-box;}
+a:link, a:visited {color: inherit;text-decoration: none;}
+nav ul {list-style: none;margin: 0;padding: 0;}
+
+body {font-family: 'Noto Sans KR', sans-serif;font-weight: 300;font-size: 12px;}
+
+h1.bold {font-size: 3em;font-weight: 700;margin: 16px 0 ;}
+h2.bold {font-size: 2em;font-weight: 700;margin: 10px 0;}
+h3.bold {font-size: 1.5em;font-weight: 700;margin: 8px 0;}
+h4.bold {font-size: 1.3em;font-weight: 700;margin: 5px 0;}
+h5.bold {font-size: 1em;font-weight: 700;margin: 5px 0;}
+
+h1 {font-size: 3em;font-weight: 500;margin: 16px 0;}
+h2 {font-size: 2em;font-weight: 500;margin: 10px 0;}
+h3 {font-size: 1.5em;font-weight: 500;margin: 8px 0;}
+h4 {font-size: 1.3em;font-weight: 500;margin: 5px 0;}
+h5 {font-size: 1em;font-weight: 500;margin: 5px 0;}
+
+h1.thin {font-size: 3em;font-weight: 100;margin: 16px 0;}
+h2.thin {font-size: 2em;font-weight: 100;margin: 10px 0;}
+h3.thin {font-size: 1.5em;font-weight: 100;margin: 8px 0;}
+h4.thin {font-size: 1.3em;font-weight: 100;margin: 5px 0;}
+h5.thin {font-size: 1em;font-weight: 100;margin: 5px 0;}
+
+.pull {float: left;padding-right: 8px;}
+.push {float: right;padding-left: 8px;}
+.full {width: 100%;display: block;}
+.text_center {text-align: center;}
+.box_center {margin: 0 auto;}
+.xy_center {position: absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);}
+.y_center {position: absolute;top: 50%;transform: translateY(-50%);}
+.x_center {position: absolute;left: 50%;transform: translateX(-50%);}
+.cover {background-position: center;background-size: cover;}
+.filter_gray {filter: saturate(0);transition-duration: .4s;}
+.filter_gray:hover {filter: saturate(1);}
+
+/* 말줄임 */
+.ellipsis {overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.p5 {padding: 5px;}
+.p8 {padding: 8px;}
+.p10 {padding: 10px;}
+
+.btn_pure {border: none;padding: 5px 15px 6px;border-radius: 8px;font-size: 1.3em;font-weight: bold;}
+
+.goTop {position: fixed;font-size: 24px;bottom: 20px;right: 15%;background-color: rgba(255,255,255,0.6);font-weight: bold;padding: 20px;border-radius: 50%;}
+
+/*Box color Set*/
+.TURQUOISE {background-color: #1ABC9C;color: #FFFFFF;}
+.GREEN_SEA {background-color: #16A085;color: #FFFFFF;}
+.EMERALD {background-color: #2ECC71;color: #FFFFFF;}
+.NEPHRITIS {background-color: #27AE60;color: #FFFFFF;}
+.PETER_RIVER {background-color: #3498DB;color: #FFFFFF;}
+.BELIZE_HOLE {background-color: #2980B9;color: #FFFFFF;}
+.AMETHYST {background-color: #9B59B6;color: #FFFFFF;}
+.WISTERIA {background-color: #8E44AD;color: #FFFFFF;}
+.WET_ASPHALT {background-color: #34495E;color: #FFFFFF;}
+.MIDNIGHT_BLUE {background-color: #2C3E50;color: #FFFFFF;}
+.SUN_FLOWER {background-color: #F1C40F;color: #FFFFFF;}
+.ORANGE {background-color: #F39C12;color: #FFFFFF;}
+.CARROT {background-color: #E67E22;color: #FFFFFF;}
+.PUMPKIN {background-color: #D35400;color: #FFFFFF;}
+.ALIZARIN {background-color: #E74C3C;color: #FFFFFF;}
+.POMEGRANATE {background-color: #C0392B;color: #FFFFFF;}
+.CLOUDS {background-color: #ECF0F1;color: #BDC3C7;}
+.SILVER {background-color: #BDC3C7;color: #FFFFFF;}
+.CONCRETE {background-color: #95A5A6;color: #FFFFFF;}
+.ASBESTOS {background-color: #7F8C8D;color: #FFFFFF;}
+
+.TURQUOISE:hover {color: #1ABC9C;background-color: #FFFFFF;}
+.GREEN_SEA:hover {color: #16A085;background-color: #FFFFFF;}
+.EMERALD:hover {color: #2ECC71;background-color: #FFFFFF;}
+.NEPHRITIS:hover {color: #27AE60;background-color: #FFFFFF;}
+.PETER_RIVER:hover {color: #3498DB;background-color: #FFFFFF;}
+.BELIZE_HOLE:hover {color: #2980B9;background-color: #FFFFFF;}
+.AMETHYST:hover {color: #9B59B6;background-color: #FFFFFF;}
+.WISTERIA:hover {color: #8E44AD;background-color: #FFFFFF;}
+.WET_ASPHALT:hover {color: #34495E;background-color: #FFFFFF;}
+.MIDNIGHT_BLUE:hover {color: #2C3E50;background-color: #FFFFFF;}
+.SUN_FLOWER:hover {color: #F1C40F;background-color: #FFFFFF;}
+.ORANGE:hover {color: #F39C12;background-color: #FFFFFF;}
+.CARROT:hover {color: #E67E22;background-color: #FFFFFF;}
+.PUMPKIN:hover {color: #D35400;background-color: #FFFFFF;}
+.ALIZARIN:hover {color: #E74C3C;background-color: #FFFFFF;}
+.POMEGRANATE:hover {color: #C0392B;background-color: #FFFFFF;}
+.CLOUDS:hover {color: #ECF0F1;background-color: #BDC3C7;}
+.SILVER:hover {color: #BDC3C7;background-color: #FFFFFF;}
+.CONCRETE:hover {color: #95A5A6;background-color: #FFFFFF;}
+.ASBESTOS:hover {color: #7F8C8D;background-color: #FFFFFF;}
+
+/* 원형 차트 */
+.sectionTitle {background-color: rgba(255, 255, 255, 0.5);padding: 8px;border-radius: 8px;}
+.diagram {background-color: #eee;padding: 10px;margin: 20px 0;} /* 차트의 바깥쪽 테두리 */
+.chart {width: 100%;height: 100%;position: relative;display: none;} /* 차트를 감싸는 상자 */
+.pie {width: 100%;height: 100%;border-radius: 50%;} /* 원형 상자 */
+.percent85 {background-image: conic-gradient(#eee 15%, #F1C40F 15%);} /* 상자의 배경을 conic-gradient로 채워 파이 차트를 만듬 */
+.percent80 {background-image: conic-gradient(#eee 20%, #2C3E50 20%);}
+.percent75 {background-image: conic-gradient(#eee 25%, #8E44AD 25%);}
+.percent70 {background-image: conic-gradient(#eee 30%, #D35400 30%);}
+.percent65 {background-image: conic-gradient(#eee 35%, #2980B9 35%);}
+.percent60 {background-image: conic-gradient(#eee 40%, #3498DB 40%);}
+.percent55 {background-image: conic-gradient(#eee 45%, #1ABC9C 45%);}
+.percent50 {background-image: conic-gradient(#eee 50%, #7F8C8D 50%);}
+.overDisc {width: 55%;height: 55%;border-radius: 50%;background-color: #eee;z-index: 1;} /* 차트 중심부를 가려서 도넛 차트로 만듬 */
+.overDisc>p {text-align: center;font-size: 24px;font-weight: bold;} /* 차트 중앙에 텍스트를 꾸밈 */
+
+/* 모바일 화면 디자인 영역 */
+@media screen and (max-width: 767px) {
+  header {height: 100%;overflow: auto;}
+
+  .menu {font-size: 8vw;position: absolute;right: 0;padding: 10px;}
+  .resume {background-color: rgba(255, 255, 255, 0.65);padding: 10px;}
+  .resume img {width: 95%;display: block;margin: 0 auto;border-radius: 8px;}
+
+  .skills {display: flex;flex-wrap: wrap;}
+  .diagram {width: 50%;margin: 0;background-clip: content-box;}
+  .chart {padding: 10px;}
+  
+  .port {position: relative;overflow: hidden;color: #fff;width: 100%;margin: 10px 0;}
+  .folio {width:100%; height: 100%;color: #fff;position: absolute;top: 0;}
+  .project {position: absolute;width: 100%;top: 0;}
+  .description {position: absolute;width: 100%;top: 45px;}
+  .view {position: absolute;left: 10px;bottom: 10px;font-size: 1.4em;}
+
+  footer {background-color: #333;color: #fff;height: 200px;width: 100%;}
+  footer>.inner {text-align: center;}
+
+  #portfolio {position: fixed;width: 100%;height: 100%;top: 0;background-color: rgba(0, 0, 0, 0.65);overflow: auto;display: none;}
+  #portfolio>.close {font-size: 24px;color: #fff;position: fixed;top: 10px;right: 20px;text-shadow: 2px 2px 3px #333;cursor: pointer;}
+  #preview>img {width: 100%;}
+}
+
+/* PC 화면 디자인 영역 */
+@media screen and (min-width: 768px) {
+
+  .row {display: flex;flex-wrap: wrap;justify-content: space-between;margin: 20px 0;}
+  .span1 {width: 6.5%;}
+  .span2 {width: 15%;}
+  .span3 {width: 23.5%;}
+  .span4 {width: 32%;}
+  .span5 {width: 40.5%;}
+  .span6 {width: 49%;}
+  .span7 {width: 57.5%;}
+  .span8 {width: 66%;}
+  .span9 {width: 74.5%;}
+  .span10 {width: 83%;}
+  .span11 {width: 91.5%;}
+  .span12 {width: 100%;}
+
+  
+  header {min-width: 1200px;height: 100%;}
+  .menu {display: none;}
+  header h2 {width: 1200px;margin: 20px auto;}
+  .profile {height: calc(100% - 74px);background-size: 100%;background-attachment: fixed;overflow: auto;}
+    
+  .resume {width: 1200px;margin: 0 auto;padding: 20px 0;font-size: 16px;}
+  .resume>[class*=span] {background-color: rgba(255, 255, 255, 0.5);border-radius: 10px;padding: 20px;}
+  .resume>[class*=span]>img {display: block;margin: 0 auto;}
+  
+  .wrap {width: 1200px;margin: 0 auto;} 
+  .wrap>h2 {margin: 40px 0 20px;}
+
+  .skills {width: 1200px;margin: 0 auto;}
+  .diagram {border-radius: 10px;}
+
+  /* 작품 갤러리 애니메이션 */
+  .port {position: relative;overflow: hidden;color: #fff;}
+  .folio {width:100%; height: 100%;color: #fff;transition-duration: .4s;position: absolute;top: 0;}
+
+  .translate {width: 120%;left: -20%;}
+  .port:hover>.translate {left: 0;}
+  
+  .port:hover>.scale {transform: scale(1.1);}
+
+  .gradient {position: absolute;width: 100%;height: 100%;background-image: linear-gradient(0deg, rgba(0,0,0, 0), rgba(0,0,0,0.85));opacity: 0;}
+  .port:hover>.gradient {opacity: 1;}
+
+  .top {position: absolute;width: 100%;height: 22%;background-color: rgba(0, 0, 0, 0.65);top: -22%;}
+  .port:hover>.top {top: 0;}
+  .bottom {position: absolute;width: 100%;height: 22%;background-color: rgba(0, 0, 0, 0.65);bottom: -22%;}
+  .port:hover>.bottom {bottom: 0;}
+
+  .project {position: absolute;width: 100%;top: 0px;text-align: center;opacity: 0;}
+  .description {position: absolute;width: 90%;left: 10px;bottom: 40px;opacity: 0;}
+  .view {position: absolute;left: 10px;bottom: 10px;font-size: 1.4em;cursor: pointer;opacity: 0;}
+  .port>[class] {transition-duration: .4s;}
+  .port:hover>[class] {opacity: 1;}
+  
+  footer {background-color: #333;color: #fff;height: 120px;width: 100%;}
+  footer>.inner {width: 1200px;margin: 0 auto;text-align: center;}
+
+  #portfolio {position: fixed;width: 100%;height: 100%;top: 0;background-color: rgba(0, 0, 0, 0.65);overflow: auto;display: none;z-index: 9;}
+  #portfolio>.close {font-size: 36px;color: #fff;position: fixed;top: 10px;right: 20px;text-shadow: 2px 2px 3px #666;cursor: pointer;}
+  #preview {text-align: center;}
+  #preview>img {border: 2px solid #fff;}
+}

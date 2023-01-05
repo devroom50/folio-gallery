@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <header id="TOP">
+    <i class="xi-bars menu"></i>
+    <h2 class="sectionTitle">About</h2>
+    <div class="profile" style="background-image: url(https://picsum.photos/id/4/1920/1080);">
+      <div class="row resume">
+        <div class="span4">
+          <img src="https://picsum.photos/id/3/300/300" alt="프로필 이미지">
+        </div>
+        <div class="span8">
+          <h3>별칭 : 난나눈나</h3>
+          <p>최종학력</p>
+          <ul><li>OO학교 OO과 졸업</li></ul>
+          <p>디자인 경력</p>
+          <ul>
+            <li>한울직업전문학교 웹UI/UX과정 수료</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2 class="sectionTitle">Skills</h2>
+      <div class="skills row">
+        <!-- 원형차트 -->
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent80"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                photoshop <br>
+                80%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent75"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                illustrator<br>
+                75%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent75"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                InDesign<br>
+                75%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent65"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                Figma<br>
+                65%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skills row">
+        <!-- 원형차트 -->
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent85"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                HTML <br>
+                85%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent80"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                CSS <br>
+                80%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent65"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                Javascript<br>
+                65%
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="span3 diagram">
+          <div class="chart">
+            <div class="pie percent60"></div>
+            <div class="overDisc xy_center">
+              <p class="xy_center">
+                jQuery <br>
+                60%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>  
+  
+  <div class="wrap">
+    <h2 class="sectionTitle">Portfolio</h2>
+    <div class="gallery row">
+      <!-- 크기 변화 효과 썸네일 이미지는 스타일 속성의 이미지 경로를, 원본 이미지는 data-url 속성의 경로를 수정하시오. -->
+      <div class="span4 port">
+        <div class="folio cover scale" style="background-image: url(https://picsum.photos/400/300/?random=1);" data-url="https://picsum.photos/1920/1080/?random=1"></div>
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+      <!-- 위치 변화 효과 -->
+      <div class="span4 port">
+        <div class="folio cover translate" style="background-image: url(https://picsum.photos/400/300/?random=2);" data-url="https://picsum.photos/1920/1080/?random=2"></div>
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+      <!-- 채도 변화 효과 -->
+      <div class="span4 port">
+        <div class="folio cover" style="background-image: url(https://picsum.photos/400/300/?random=3);" data-url="https://picsum.photos/1920/1080/?random=3"></div>
+        <div class="gradient"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+    </div>
+    <div class="gallery row">
+      <!-- 크기 변화 효과 썸네일 이미지는 스타일 속성의 이미지 경로를, 원본 이미지는 data-url 속성의 경로를 수정하시오. -->
+      <div class="span3 port">
+        <div class="folio cover scale" style="background-image: url(https://picsum.photos/400/300/?random=4);" data-url="https://picsum.photos/1920/1080/?random=4"></div>
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+      <!-- 위치 변화 효과 -->
+      <div class="span3 port">
+        <div class="folio cover translate" style="background-image: url(https://picsum.photos/400/300/?random=5);" data-url="https://picsum.photos/1920/1080/?random=5"></div>
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+      <!-- 채도 변화 효과 -->
+      <div class="span3 port">
+        <div class="folio cover" style="background-image: url(https://picsum.photos/400/300/?random=6);" data-url="https://picsum.photos/1920/1080/?random=6"></div>
+        <div class="gradient"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+      <div class="span3 port">
+        <div class="folio cover" style="background-image: url(https://picsum.photos/400/300/?random=7);" data-url="https://picsum.photos/1920/1080/?random=8"></div>
+        <div class="gradient"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+    </div>
+    <div class="gallery row">
+      <!-- 위치 변화 효과 -->
+      <div class="span6 port">
+        <div class="folio cover translate" style="background-image: url(https://picsum.photos/400/300/?random=8);" data-url="https://picsum.photos/1920/1080/?random=8"></div>
+        <div class="top"></div>
+        <div class="bottom"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+      <!-- 채도 변화 효과 -->
+      <div class="span6 port">
+        <div class="folio cover" style="background-image: url(https://picsum.photos/400/300/?random=9);" data-url="https://picsum.photos/1920/1080/?random=9"></div>
+        <div class="gradient"></div>
+        <h2 class="project">작품명</h2>
+        <p class="description">작품에 대한 간단한 설명</p>
+        <p class="view"><a href="#"><i class="xi-eye">View</i></a></p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="inner">
+      &copy;Copyright all right reserved by XXXX.
+    </div>
+  </footer>
+  <div id="portfolio">
+    <i class="xi-close close"></i>
+    <div id="preview"></div>
+  </div>
+
+  <a href="#"><i class="xi-angle-up goTop"></i></a>
+</body>
+</html>
