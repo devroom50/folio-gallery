@@ -53,7 +53,7 @@ h5.thin {font-size: 1em;font-weight: 100;margin: 5px 0;}
 
 .btn_pure {border: none;padding: 5px 15px 6px;border-radius: 8px;font-size: 1.3em;font-weight: bold;}
 
-.goTop {position: fixed;font-size: 24px;bottom: 20px;right: 15%;background-color: rgba(255,255,255,0.6);font-weight: bold;padding: 20px;border-radius: 50%;}
+.goTop {position: fixed;font-size: 24px;bottom: 20px;right: 5%;background-color: rgba(255,255,255,0.6);font-weight: bold;padding: 20px;border-radius: 50%;}
 
 /*Box color Set*/
 .TURQUOISE {background-color: #1ABC9C;color: #FFFFFF;}
@@ -99,7 +99,7 @@ h5.thin {font-size: 1em;font-weight: 100;margin: 5px 0;}
 .ASBESTOS:hover {color: #7F8C8D;background-color: #FFFFFF;}
 
 /* 원형 차트 */
-.sectionTitle {background-color: rgba(255, 255, 255, 0.5);padding: 8px;border-radius: 8px;}
+.sectionTitle {background-color: rgba(255, 255, 255, 0.5);padding: 8px;border-radius: 8px;font-size: 36px;font-weight: 100;}
 .diagram {background-color: #eee;padding: 10px;margin: 20px 0;} /* 차트의 바깥쪽 테두리 */
 .chart {width: 100%;height: 100%;position: relative;display: none;} /* 차트를 감싸는 상자 */
 .pie {width: 100%;height: 100%;border-radius: 50%;} /* 원형 상자 */
@@ -112,7 +112,7 @@ h5.thin {font-size: 1em;font-weight: 100;margin: 5px 0;}
 .percent55 {background-image: conic-gradient(#eee 45%, #1ABC9C 45%);}
 .percent50 {background-image: conic-gradient(#eee 50%, #7F8C8D 50%);}
 .overDisc {width: 55%;height: 55%;border-radius: 50%;background-color: #eee;z-index: 1;} /* 차트 중심부를 가려서 도넛 차트로 만듬 */
-.overDisc>p {text-align: center;font-size: 24px;font-weight: bold;} /* 차트 중앙에 텍스트를 꾸밈 */
+.overDisc>p {text-align: center;font-size: 24px;font-weight: 100;} /* 차트 중앙에 텍스트를 꾸밈 */
 
 /* 모바일 화면 디자인 영역 */
 @media screen and (max-width: 767px) {
@@ -131,9 +131,6 @@ h5.thin {font-size: 1em;font-weight: 100;margin: 5px 0;}
   .project {position: absolute;width: 100%;top: 0;}
   .description {position: absolute;width: 100%;top: 45px;}
   .view {position: absolute;left: 10px;bottom: 10px;font-size: 1.4em;}
-
-  footer {background-color: #333;color: #fff;height: 200px;width: 100%;}
-  footer>.inner {text-align: center;}
 
   #portfolio {position: fixed;width: 100%;height: 100%;top: 0;background-color: rgba(0, 0, 0, 0.65);overflow: auto;display: none;}
   #portfolio>.close {font-size: 24px;color: #fff;position: fixed;top: 10px;right: 20px;text-shadow: 2px 2px 3px #333;cursor: pointer;}
@@ -156,7 +153,6 @@ h5.thin {font-size: 1em;font-weight: 100;margin: 5px 0;}
   .span10 {width: 83%;}
   .span11 {width: 91.5%;}
   .span12 {width: 100%;}
-
   
   header {min-width: 1200px;height: 100%;}
   .menu {display: none;}
@@ -203,4 +199,12 @@ h5.thin {font-size: 1em;font-weight: 100;margin: 5px 0;}
   #portfolio>.close {font-size: 36px;color: #fff;position: fixed;top: 10px;right: 20px;text-shadow: 2px 2px 3px #666;cursor: pointer;}
   #preview {text-align: center;}
   #preview>img {border: 2px solid #fff;}
+
+  footer {height: 120px;background-color: #030;color: #fff;display: flex;justify-content: center;padding: 30px 0;}
+  footer>div {height: 100%;}
+  .flogo {width: 220px;}
+  .copy {width: 780px;line-height: 20px;}
+  .sns {width: 200px;text-align: center;line-height: 60px;}
+  .social {width: 30px;display: inline;filter: saturate(0);margin: 0 10px;}
+  .social:hover {filter: saturate(1);}
 }
